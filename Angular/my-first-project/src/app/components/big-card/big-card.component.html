@@ -1,0 +1,19 @@
+<div class="container__big-card">
+    <div class="big-card__photo">
+        <img 
+            src="{{photoCover}}" 
+            alt=""
+            height="200px"
+        >
+    </div>
+
+    <div class="big-card_title">
+        <h1><a [href]="'/content/' + id">{{ cardTitle }}</a></h1>
+    </div>
+    
+    <div class="big-card__description">
+        <p>
+            <a [href]="'/content/' + id">{{ cardDescription }}</a>
+        </p>
+    </div>
+</div>
